@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürün Detayları</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <img src="" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title" id="product-title"></h5>
+                        <p class="card-text" id="product-description"></p>
+                        <p class="card-text" id="product-price"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            
+            const title = decodeURIComponent(urlParams.get('title'));
+            const price = urlParams.get('price');
+            const image = decodeURIComponent(urlParams.get('image'));
+            const description = decodeURIComponent(urlParams.get('description'));
+
+            // Ürün bilgilerini yerleştir
+            document.getElementById('product-title').innerText = title;
+            document.getElementById('product-description').innerText = description;
+            document.getElementById('product-price').innerText = 'Fiyat: ' + price + ' TL';
+            document.querySelector('.card-img-top').setAttribute('src', image);
+            document.querySelector('.card-img-top').setAttribute('alt', title);
+        });
+    </script>
+</body>
+</html>
