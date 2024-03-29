@@ -37,15 +37,18 @@ Proje, kullanıcı dostu bir arayüze sahiptir. Ana sayfada ürünler listelenir
 
 Ana Sayfa:
 
-![Ana Sayfa](screenshots/ana_sayfa.png)
+![Ekran görüntüsü 2024-03-30 002036](https://github.com/alicankocman/Typescript-ShoppingProject-/assets/88544926/aca51f02-613f-488e-9c72-61dff1187c44)
+
 
 Ürün Detayları:
 
-![Ürün Detayları](screenshots/urun_detaylari.png)
+![Ekran görüntüsü 2024-03-30 002115](https://github.com/alicankocman/Typescript-ShoppingProject-/assets/88544926/37c5f2cd-9512-4bc9-be10-91da99816a2b)
+
 
 Sepet:
 
-![Sepet](screenshots/sepet.png)
+![Ekran görüntüsü 2024-03-30 002224](https://github.com/alicankocman/Typescript-ShoppingProject-/assets/88544926/86dcb4f6-f68d-4e07-9857-f55731af90df)
+
 
 ## Katkıda Bulunma
 
