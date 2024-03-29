@@ -17,47 +17,46 @@ Bu proje, teknoloji ürünlerini satan bir e-ticaret platformunu simüle eder. K
 
 1. Projeyi klonlayın:
 
-```bash
-git clone https://github.com/kullaniciadi/proje-adı.git
-Proje dizinine gidin:
-bash
-Copy code
-cd proje-adı
-Gerekli bağımlılıkları yükleyin (Eğer varsa):
-bash
-Copy code
-npm install
-Projeyi çalıştırın:
-bash
-Copy code
-npm start
-Tarayıcınızda http://localhost:3000 adresine gidin.
-Kullanım
+
+2. Proje dizinine gidin:
+
+
+3. Gerekli bağımlılıkları yükleyin (Eğer varsa):
+
+
+4. Projeyi çalıştırın:
+
+
+5. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresine gidin.
+
+## Kullanım
+
 Proje, kullanıcı dostu bir arayüze sahiptir. Ana sayfada ürünler listelenir ve kullanıcılar bu ürünler arasında gezinebilirler. Ürünlerin üzerine tıkladıklarında detaylarını görüntüleyebilirler. Sepete ürün eklemek için, ürün detay sayfasında bulunan "Sepete Ekle" butonuna tıklamaları yeterlidir. Sepet sayfasında, eklenen ürünlerin listesi ve toplam fiyatı görüntülenir.
 
-Ekran Görüntüleri
+## Ekran Görüntüleri
+
 Ana Sayfa:
 
+![Ana Sayfa](screenshots/ana_sayfa.png)
 
 Ürün Detayları:
 
+![Ürün Detayları](screenshots/urun_detaylari.png)
 
 Sepet:
 
+![Sepet](screenshots/sepet.png)
 
-Katkıda Bulunma
-Bu reposu forklayın.
-Yeni bir branch oluşturun: git checkout -b feature
-Değişikliklerinizi commit edin: git commit -am 'Add new feature'
-Branch'inizi pushlayın: git push origin feature
-Bir Pull Request (PR) açın.
-Copy code
+## Katkıda Bulunma
 
-Bu örnekte, projenin teknik detayları, kurulum ve kullanımı hakkında bilgi verilmiştir. Ayrıca ekran görüntüleri de README dosyasına eklenmiştir. Siz de kendi projenizin gereksinimlerine uygun olarak README dosyasını düzenleyebilirsiniz.
-
+1. Bu reposu forklayın.
+2. Yeni bir branch oluşturun: `git checkout -b feature`
+3. Değişikliklerinizi commit edin: `git commit -am 'Add new feature'`
+4. Branch'inizi pushlayın: `git push origin feature`
+5. Bir Pull Request (PR) açın.
 
 
 
 
-
+##PROJE LİNKİ
 https://tsshopping.netlify.app
